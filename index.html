@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Leap year and 12 Horary signs</title>
+
+	<style type="text/css">
+
+		body{
+			background-color:aliceblue;
+			text-align: center;
+			padding:150px 0 0 0;
+			color: green;
+		}
+
+		h1 {
+			border: 2px solid gold;
+		}
+
+		p {
+			border: 2px solid gold;
+			display: inline-block;
+			font-family:sans-serif;
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Leap year and Horary Signs</h1>
+<p>
+	<script type="text/javascript">
+
+	var year=prompt("Enter the year here: ");
+	year=parseInt(year);
+
+	if (((year%4==0)&&(year%100!=0))||(year%400==0)){
+		document.write(year+" " +"<h2>Leap year</h2>");
+	}
+
+	else{
+		document.write(year+ " <h2>Common Year</h2>");
+	}
+
+	if (year%12==0) {
+		 document.write("<h3>Monkey</h3>");
+		 document.write('<img src="img/monkey.jpg" width="450px" height="350px">');     //images sources:https://www.google.com/search?q=monkey&sxsrf=ALeKk02ulE6CF_VBy7K_JoUvy9RzMuwE-Q:1591623783893&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjhzoTSrPLpAhWPd94KHd47DQUQ_AUoAXoECBkQAw&biw=983&bih=735#imgrc=GwP4gFWPzU96QM
+
+	}
+	else if (year%12==1){
+		document.write("<h3>Cock</h3>");
+		document.write('<img src="img/cock.jpg" width="450px" height="350px">');				//images sources: https://www.google.com/search?q=cock&tbm=isch&ved=2ahUKEwjRyJLTrPLpAhVKA6YKHZ7TAtwQ2-cCegQIABAA&oq=cock&gs_lcp=CgNpbWcQAzIECAAQQzICCAAyAggAMgQIABBDMgIIADICCAAyBAgAEEMyBAgAEEMyAggAMgIIADoECCMQJzoHCAAQsQMQQ1D0iQNYiI0DYLWRA2gAcAB4AIAB1gGIAYMFkgEFMC4zLjGYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ei=akDeXtHrDMqGmAWep4vgDQ&bih=735&biw=983#imgrc=F8GgDUYcAoDyUM
+	}
+
+else if (year%12==2){
+ 		document.write("<h3>Dog</h3>");
+		document.write('<img src="img/dog.jpeg" width="450px" height="350px">');				//images sources: https://www.google.com/search?q=dog&tbm=isch&ved=2ahUKEwjSnMnsrPLpAhVD3pQKHX1-D7AQ2-cCegQIABAA&oq=dog&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzICCAAyAggAMgIIADIECAAQQzICCAAyAggAMgIIADICCAA6BwgAELEDEEM6BQgAELEDOgcIIxDqAhAnUJ6MAVjqlwFgvJkBaAFwAHgBgAGaAYgBuwaSAQMwLjaYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img&ei=n0DeXpLRIMO80wT9_L2ACw&bih=735&biw=983#imgrc=S2OraxNqQQazZM
+ }
+ else if (year%12==3){
+ 		document.write("<h3>Boar</h3>");
+		document.write('<img src="img/boar.jpeg" width="450px" height="350px">');				//images sources: https://www.google.com/search?q=boar&tbm=isch&ved=2ahUKEwjTy4_3rPLpAhVby4sBHUf8DnwQ2-cCegQIABAA&oq=boar&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzICCAAyAggAMgQIABBDMgIIADICCAAyBAgAEEMyBAgAEEMyAggAOgUIABCxAzoHCAAQsQMQQzoHCCMQ6gIQJ1C16AJY3_MCYN31AmgBcAB4AIABjgGIAYwGkgEDMC42mAEAoAEBqgELZ3dzLXdpei1pbWewAQo&sclient=img&ei=tUDeXpOdKNuWr7wPx_i74Ac&bih=735&biw=983#imgrc=L-fskzVKWgWtOM
+ }
+ else if (year%12==4){
+ 		document.write("<h3>Rat</h3>");
+		document.write('<img src="img/rat.jpg" width="450px" height="350px">');					//images sources: https://www.google.com/search?q=rat&tbm=isch&ved=2ahUKEwj3h8uOrfLpAhXBI6YKHR0SBJ4Q2-cCegQIABAA&oq=rat&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgUIABCxAzoHCCMQ6gIQJzoHCAAQsQMQQ1DNsAFY7LkBYKS8AWgBcAB4AIABogGIAc8GkgEDMC42mAEAoAEBqgELZ3dzLXdpei1pbWewAQo&sclient=img&ei=5kDeXvf8NMHHmAWdpJDwCQ&bih=735&biw=983#imgrc=FGQOQSMTgZW5oM
+ }
+ else if (year%12==5){
+ 		document.write("<h3>Ox</h3>");
+		document.write('<img src="img/ox.jpeg" width="450px" height="350px">');					//images sources: https://www.google.com/search?q=ox&tbm=isch&ved=2ahUKEwjspN6arfLpAhVKb5QKHeUGB2wQ2-cCegQIABAA&oq=ox&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgcIABCxAxBDOgUIABCxAzoHCCMQ6gIQJ1DLuAJY8MICYLPEAmgBcAB4AIABqAGIAbYEkgEDMC40mAEAoAEBqgELZ3dzLXdpei1pbWewAQo&sclient=img&ei=AEHeXuykFcre0QTljZzgBg&bih=735&biw=983#imgrc=G2kwhRYtft9CHM
+ }
+ else if (year%12==6){
+ 		document.write("<h3>Tiger</h3>");
+		document.write('<img src="img/tiger.jpg" width="450px" height="350px">');				//images sources: https://www.google.com/search?q=tiger&tbm=isch&ved=2ahUKEwiH-pivrfLpAhWPuJQKHW4QCxwQ2-cCegQIABAA&oq=tiger&gs_lcp=CgNpbWcQAzIECCMQJzICCAAyAggAMgIIADICCAAyBAgAEEMyBAgAEEMyAggAMgIIADIECAAQQzoFCAAQsQM6BwgjEOoCECdQmvcBWKuCAmCJhAJoAXAAeACAAZ8BiAHdBpIBAzAuNpgBAKABAaoBC2d3cy13aXotaW1nsAEK&sclient=img&ei=K0HeXse4D4_x0gTuoKzgAQ&bih=735&biw=983#imgrc=bJv5nYRQNzgnbM
+ }
+ else if (year%12==7){
+ 		document.write("<h3>Hare</h3>");
+		document.write('<img src="img/hare.jpeg" width="450px" height="350px">');				//images sources: https://www.google.com/search?q=hare&tbm=isch&ved=2ahUKEwjetdS_rfLpAhVPXZQKHYs7A-QQ2-cCegQIABAA&oq=hare&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgcIABCxAxBDOgUIABCxA1CXkgFYvZcBYP-YAWgAcAB4AIABjQGIAfMDkgEDMC40mAEAoAEBqgELZ3dzLXdpei1pbWc&sclient=img&ei=TUHeXp7bL8-60QSL94ygDg&bih=735&biw=983#imgrc=_aYGKk4Y8kJG1M
+ }
+ else if (year%12==8){
+ 		document.write("<h3>Dragon</h3>");
+		document.write('<img src="img/dragon.jpeg" width="450px" height="350px">');			//images sources: https://www.google.com/search?q=dragon&tbm=isch&ved=2ahUKEwiY4NXJrfLpAhUnHKYKHW73A_wQ2-cCegQIABAA&oq=dragon&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzIFCAAQsQMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgcIABCxAxBDOgcIIxDqAhAnUJm1AVjIxAFg0sYBaAFwAHgAgAG4AYgBwQqSAQMwLjmYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img&ei=YkHeXpinL6e4mAXu7o_gDw&bih=735&biw=983#imgrc=2iRYRK_3TiFitM
+ }
+ else if (year%12==9){
+ 		document.write("<h3>Serphant</h3>");
+		document.write('<img src="img/serphant.jpeg" width="450px" height="350px">');		//images sources: https://www.google.com/search?q=serphant&tbm=isch&ved=2ahUKEwiCmLHWrfLpAhURTZQKHTvLCegQ2-cCegQIABAA&oq=serphant&gs_lcp=CgNpbWcQAzIECCMQJzICCAAyBggAEAUQHjIGCAAQChAYMgQIABAYMgYIABAKEBgyBggAEAoQGDIGCAAQChAYMgYIABAKEBgyBggAEAoQGDoFCAAQsQM6BAgAEEM6BwgAELEDEEM6BwgjEOoCECc6BAgAEB5QuYIBWJKWAWC0lwFoAXAAeACAAbABiAHoDpIBBDAuMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img&ei=fUHeXsLlGpGa0QS7lqfADg&bih=735&biw=983#imgrc=XT76bKDs5lTg6M
+ }
+ else if (year%12==10){
+ 		document.write("<h3>Horse</h3>");
+		document.write('<img src="img/horse.jpg" width="450px" height="350px">');				//images sources: https://www.google.com/search?q=horse&tbm=isch&ved=2ahUKEwiP6K_grfLpAhVOA6YKHUDyB80Q2-cCegQIABAA&oq=horse&gs_lcp=CgNpbWcQAzIECCMQJzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoFCAAQsQNQtHpYrX9gw4ABaABwAHgAgAGXAYgBqAWSAQMwLjWYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ei=kkHeXo_XF86GmAXA5J_oDA&bih=735&biw=983#imgrc=A7QC0mAFRHEkEM
+ }
+ else {
+	 if (year%12==11){
+ 		document.write("<h3>Sheep</h3>");
+		document.write('<img src="img/sheep.jpeg" width="450px" height="350px">');			//images sources: https://www.google.com/search?q=sheep&tbm=isch&ved=2ahUKEwi0tYfprfLpAhVBA6YKHfY5DeAQ2-cCegQIABAA&oq=sheep&gs_lcp=CgNpbWcQAzIECCMQJzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECAAQQzoFCAAQsQM6BwgjEOoCECc6BwgAELEDEENQtIIBWLuTAWCUlgFoAXAAeACAAaYCiAGZC5IBBTAuOC4xmAEAoAEBqgELZ3dzLXdpei1pbWewAQo&sclient=img&ei=pEHeXrTTJMGGmAX287SADg&bih=735&biw=983#imgrc=ytwYv0e4EhiGwM
+	}
+}
+
+ 			</script>
+		</p>
+</body>
+</html>
